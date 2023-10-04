@@ -8,6 +8,7 @@
     display: grid;
     grid-template-rows: repeat(6,100px);
     grid-template-columns: repeat(4,100px);
+    justify-content: center;
     
 }
 

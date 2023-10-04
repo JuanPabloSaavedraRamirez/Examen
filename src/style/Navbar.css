@@ -1,11 +1,10 @@
 /* components/Navbar.css */
 .Con{
     margin: 0;
-    width: 50px;
+    width:50px;
     height: 1px;
     outline-color: black;
     outline-style: auto;
-    background-color: white;
     text-align: center;
     padding: auto;
 }
@@ -31,7 +30,6 @@
 }
 
 .nav-item a {
-    color: rgb(212, 175, 55);
     text-decoration: none;
 }
 

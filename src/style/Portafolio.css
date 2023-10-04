@@ -12,6 +12,7 @@ body{
     display: grid;
     grid-template-rows: repeat(1,300px);
     grid-template-columns: repeat(2,300px);
+    justify-content: center;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +37,7 @@ body{
     display: grid;
     grid-template-rows: repeat(1,300px);
     grid-template-columns: repeat(2,300px);
+    justify-content: center;
     
     margin-top: 90px;
 }
@@ -59,6 +61,7 @@ body{
     display: grid;
     grid-template-rows: repeat(1,300px);
     grid-template-columns: repeat(2,300px);
+    justify-content: center;
     margin-top: 90px;
     margin-left: 40px;
 }
@@ -76,6 +79,7 @@ body{
     display: grid;
     grid-template-rows: repeat(10,50px);
     grid-template-columns: repeat(20,50px);
+    justify-content: center;
 }
 
 .Texto{

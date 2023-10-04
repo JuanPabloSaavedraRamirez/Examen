@@ -1,0 +1,43 @@
+.pokedex {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .pokemon-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-list-item {
+    margin: 10px;
+  }
+  
+  .pokemon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .pokemon-button:focus {
+    outline: none;
+  }
+  
+  .pokemon-button img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .AyS{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+
+  ul{
+    list-style-type: none;
+  }

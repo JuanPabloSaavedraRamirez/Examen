@@ -1,0 +1,170 @@
+.NameC{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Calculadora{
+    padding: 100px;
+    display: grid;
+    grid-template-rows: repeat(6,100px);
+    grid-template-columns: repeat(4,100px);
+    
+}
+
+.Resultado{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 30px;
+}
+
+.n1{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.n2{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.n3{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.n4{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.n5{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.n6{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.n7{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.n8{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.n9{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.n0{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sMa{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.sMe{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Clear{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Del{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sD{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sR{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sI{
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.nMul{
+    cursor: pointer;
+    border-radius: 10px;
+}

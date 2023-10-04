@@ -1,0 +1,200 @@
+.NameP{
+    text-align: center;
+    padding-top: 60px;
+}
+
+body{
+    background-color: #00B3FF;
+}
+
+.Portafolio{
+    
+    display: grid;
+    grid-template-rows: repeat(1,300px);
+    grid-template-columns: repeat(2,300px);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
+
+    margin-top: 90px;
+}
+
+.ImgPerfil{
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.Nombre{
+    text-align: center;
+}
+
+.Proyecto1{
+    
+    display: grid;
+    grid-template-rows: repeat(1,300px);
+    grid-template-columns: repeat(2,300px);
+    
+    margin-top: 90px;
+}
+
+.ImgProyecto1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 250px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.TextoProyecto1{
+    margin-left: 50px;
+}
+
+
+.Proyecto2{
+    display: grid;
+    grid-template-rows: repeat(1,300px);
+    grid-template-columns: repeat(2,300px);
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.ImgProyecto2{
+    height: 200px;
+    width: 200px;
+}
+
+.TextoProyecto2{
+    
+}
+
+.conocimientos{
+    display: grid;
+    grid-template-rows: repeat(10,50px);
+    grid-template-columns: repeat(20,50px);
+}
+
+.Texto{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+.Malo{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Decente{
+    text-align: center;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Bueno{
+    text-align: center;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Excelente{
+    text-align: center;
+    grid-column-start: 12;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.C{
+    width: 70px;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: -10px;
+}
+
+.CName{
+    color: black;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.CBarr{
+    background-color: rgba(115, 43, 182, 0.699);
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Python{
+    width: 50px;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.PName{
+    color: black;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.PBarr{
+    background-color: rgba(50, 104, 221, 0.699);
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.Javascrip{
+    width: 90px;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    margin-left: -20px;
+}
+
+.JName{
+    color: black;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.JBarr{
+    background-color: rgba(255, 255, 0, 0.671);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}

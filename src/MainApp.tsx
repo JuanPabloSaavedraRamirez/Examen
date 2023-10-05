@@ -47,10 +47,30 @@ const MainApp = () => {
 
       </div>
 
-      <div className="Redes">
-
-
+      <div className="Ejemplos">
+        <h3>Se manejar Unity, visual studio, visual studio code y spyder, puedo hacer paginas web sencillas
+          junto con esto se manejar el html, css y en parte JavaScrip y TypeScrip, aunque estos ultimos aun
+          se me dificultan algo, acontinuacion veran unas animaciones en css que se realizar
+        </h3>
+        <div className="Container">
+          <div className="Cuadrito"></div>
+        </div>
+        <br /><br />
+        <div className="Container">
+          <div className="expansion"></div>
+        </div>
+        <br /><br />
+        <div className="Container">
+          <div className="Hoverme">Hover me</div>
+        </div>
+        <br /><br />
       </div>
+
+
+      <div className="Final">
+        <h3 className="linkedlnT">Linkdln: (personal)</h3><a className="Linkdln" href="https://www.linkedin.com/in/juan-pablo-saavedra-ram%C3%ADrez-77ab15288"><img className="LinI" src="in.png" alt="" /></a>
+        <h3 className="GithubiT">Github: (personal)</h3><a  className="Githubi" href="https://github.com/JuanPabloSaavedraRamirez"><img className="GitI" src="GitHub-Mark.png" alt="" /></a>
+    </div>
   </>
 }
 

@@ -155,50 +155,180 @@ body{
     height: 50px;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    margin-left: -5px;
 }
 
 .PName{
     color: black;
     text-align: center;
     grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 
 .PBarr{
-    background-color: rgba(50, 104, 221, 0.699);
+    background-color: #3268ddb2;
     grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 
 .Javascrip{
     width: 90px;
     height: 50px;
+    margin-left: -20px;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    margin-left: -20px;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 
 .JName{
     color: black;
     text-align: center;
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 
 .JBarr{
     background-color: rgba(255, 255, 0, 0.671);
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.Ejemplos{
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+}
+
+.Container{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    outline-color: black;
+    outline-style: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.Cuadrito{
+    width: 25px;
+    height: 25px;
+    background-color: greenyellow;
+    margin-top: 150px;
+    animation: CuadroVueltas 1s linear forwards infinite ;
+    animation-delay: 500ms;
+}
+
+@keyframes CuadroVueltas{
+    100%{
+        transform: 
+        translate(400px)
+        rotate(0.25turn);
+    }
+}
+
+.expansion{
+    width: 35px;
+    height: 47px;
+    margin-top: 180px;
+    margin-left: 180px;
+    background-color: tomato;
+    transition: 500ms;
+    transform: scale(0);
+    animation-delay: 500ms;
+}
+
+.Container:hover .expansion{
+    animation-play-state: paused;
+    transition: all linear 1s;
+    transform: scale(13.6 , 9.55)
+}
+
+.Hoverme{
+    width: 120px;
+    height: 40px;
+    margin-top: 155px;
+    margin-left: 145px;
+    font-size: 25px;
+    padding-top: 10px;
+/*Las transciciones deben ir en el elemento que se afecta */
+    transition: all linear 1s;
+    background-color: white;
+    outline-style: auto;
+    animation-delay: 1s;
+    border-radius: 5px;
+}
+
+.Hoverme:hover{
+    background-color: rgb(83, 182, 243);
+    outline-style: dotted;
+    outline-color: rgb(83, 182, 243);
+    color: white;
+}
+
+.Final{
+    margin: 0 auto;
+    width: 100%;
+
+    height: 400px;
+
+    display: grid;
+    grid-template-rows: repeat(10,50px);
+    grid-template-columns: repeat(13,50px);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
+    background-color: black;
+    color: #00B3FF;
+    justify-content: center;
+    text-align: center;
+}
+
+.Linkdln{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
     grid-row-end: 8;
+    width: 100px;
+    height: 100px;
+}
+
+.Githubi{
+    grid-column-start: 8;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    width: 100px;
+    height: 100px;
+}
+
+.GithubiT{
+    grid-column-start: 8;
+    grid-column-end: 12;
+}
+
+.linkedlnT{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.GitI{
+    width: 200px;
+    height: 200px;
+}
+
+.LinI{
+    width: 200px;
+    height: 200px;
 }

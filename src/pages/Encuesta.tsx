@@ -39,10 +39,36 @@ const Encuesta = () => {
 
   const obtenerFrase = (puntaje: number) => {
     if (puntaje === 10) {
-      return "Eres todo un otaku";
-    } else if (puntaje >= 5) {
+      return "Eres todo un otaku, bañate";
+    }
+    else if (puntaje === 9 ){
+      return "Casi todo un otaku";
+    }
+    else if (puntaje === 8 ) {
+      return "Eres algo otaku";
+    }
+    else if (puntaje === 7 ) {
+      return "Eres levemente otaku";
+    }
+    else if (puntaje === 6 ) {
+      return "Eres otaku?";
+    }
+    else if (puntaje === 5) {
       return "Tienes conocimientos de anime";
-    } else {
+    } 
+    else if (puntaje === 4) {
+      return "Sabes cosas";
+    } 
+    else if (puntaje === 3) {
+      return "Pues meh, sabes algo";
+    } 
+    else if (puntaje === 2) {
+      return "Apoco si?";
+    } 
+    else if (puntaje === 1) {
+      return "Minimo has visto 1";
+    } 
+    else {
       return "No eres otaku";
     }
   };
@@ -52,7 +78,7 @@ const Encuesta = () => {
     setRespuestasBloqueadas(true);
   };
 
-  return (
+  return <>
     <div className="encuesta-container">
       <h1>Encuesta</h1>
       <ol className="preguntas-lista">
@@ -257,7 +283,12 @@ const Encuesta = () => {
         </div>
       )}
     </div>
-  );
+        <br /><br /><br />
+      <div className="Final">
+        <h3 className="linkedlnT">Linkdln: (personal)</h3><a className="Linkdln" href="https://www.linkedin.com/in/juan-pablo-saavedra-ram%C3%ADrez-77ab15288"><img className="LinI" src="in.png" alt="" /></a>
+        <h3 className="GithubiT">Github: (personal)</h3><a  className="Githubi" href="https://github.com/JuanPabloSaavedraRamirez"><img className="GitI" src="GitHub-Mark.png" alt="" /></a>
+      </div>
+  </>;
 };
 
 export default Encuesta;

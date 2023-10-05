@@ -169,3 +169,198 @@
     cursor: pointer;
     border-radius: 10px;
 }
+
+@media (max-width:640px){
+    .NameC{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 10px;
+    }
+    
+    .Calculadora{
+        background-color: #00B3FF;
+        padding: 10px;
+        display: grid;
+        grid-template-rows: repeat(6,20px);
+        grid-template-columns: repeat(4,20px);
+        justify-content: center;
+        border-style: solid;
+    }
+    
+    .Resultado{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 10px;
+    }
+    
+    .n1{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 5px;
+    }
+    
+    .n2{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 5px;
+    }
+    
+    .n3{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+    
+    .n4{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+    
+    .n5{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+    
+    .n6{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+    
+    .n7{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        font-size: 5px;
+    }
+    
+    .n8{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        font-size: 5px;
+    }
+    
+    .n9{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        font-size: 5px;
+    }
+    
+    .n0{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+    
+    .sMa{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        font-size: 5px;
+    }
+    
+    .sMe{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 5px;
+    }
+    
+    .Clear{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .Del{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 3px;
+    }
+    
+    .sD{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .sR{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .sI{
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        font-size: 5px;
+    }
+    
+    .nMul{
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 5px;
+    }
+
+}

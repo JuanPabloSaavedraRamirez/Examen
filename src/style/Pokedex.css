@@ -41,3 +41,53 @@
   ul{
     list-style-type: none;
   }
+
+  ol{
+    list-style-type: none;
+  }
+
+  @media (max-width:640px){
+    .pokedex {
+      max-width: 100px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 5px;
+    }
+    
+    .pokemon-list {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .pokemon-list-item {
+      margin: 10px;
+      padding-left: 20px;
+    }
+    
+    .pokemon-button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+    }
+    
+    .pokemon-button:focus {
+      outline: none;
+    }
+    
+    .pokemon-button img {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .AyS{
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 5px;
+      padding: 10px;
+    }
+  }

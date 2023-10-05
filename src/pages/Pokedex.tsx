@@ -63,6 +63,12 @@ const PokemonApp: React.FC = () => {
               <li key={index}>{ability.ability.name}</li>
             ))}
           </ul>
+          <h3>Type</h3>
+          <ol>
+            {selectedPokemon.types.map((type: any, index: number) => (
+            <li key={index}>{type.type.name}</li>
+            ))}
+          </ol>
         </div>
       )}
     </div>

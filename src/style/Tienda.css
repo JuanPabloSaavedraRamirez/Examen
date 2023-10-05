@@ -193,3 +193,204 @@
     color: #00B3FF;
     border-radius: 10px;
 }
+
+@media (max-width:640px){
+    .Tienda{
+        font-size: 10px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .Pestañas{
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(1,20px);
+        grid-template-columns: repeat(3,40px);
+    }
+    
+    .Btn1{
+        font-size: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        cursor: pointer;
+        border-style: dotted;
+        border-radius: 100px;
+        border-color: #00B3FF;
+        background-color: black;
+        color: #00B3FF;
+    }
+    
+    .Btn2{
+        font-size: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        cursor: pointer;
+        border-style: dotted;
+        border-radius: 100px;
+        border-color: #00B3FF;
+        background-color: black;
+        color: #00B3FF;
+    }
+    
+    .Btn3{
+        font-size: 5px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        cursor: pointer;
+        border-style: dotted;
+        border-radius: 100px;
+        border-color: #00B3FF;
+        background-color: black;
+        color: #00B3FF;
+    }
+    
+    .Tbate{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .Novelas{
+        display: grid;
+        grid-template-rows: repeat(5,110px);
+        grid-template-columns: repeat(2,70px);
+        justify-content: center;
+    }
+    
+    .L1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L2{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L3{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L4{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L5{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L6{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L7{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L8{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L9{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .L10{
+        width: 60px;
+        height: 80px;
+    }
+    
+    .Manhwas{
+        display: grid;
+        grid-template-rows: repeat(2,100px);
+        grid-template-columns: repeat(3,70px);
+        justify-content: center;
+    }
+    
+    .M1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 60px;
+        height: 80px;
+    }
+    
+    .M2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 60px;
+        height: 80px;
+    }
+    
+    .M3{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 60px;
+        height: 80px;
+    }
+    
+    .Contador{
+        display: grid;
+        grid-template-rows: repeat(2,10px);
+        grid-template-columns: repeat(3,20px);
+        justify-content: center;
+    }
+    
+    .Title{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 5px;
+        text-align: center;
+    }
+    
+    .Valor{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 2px;
+        background-color: white;
+        height: 5px;
+    }
+    
+    .SaR{
+        height: 2px;
+        width: 2px;
+        font-size: 2px;
+        background-color:#00B3FF;
+        color: black;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+    
+    .buy{
+        height: 20px;
+        width: 50px;
+        background-color:#00B3FF;
+        color: black;
+        border-radius: 10px;
+    }
+}

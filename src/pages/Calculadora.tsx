@@ -67,7 +67,7 @@ const Calculadora: React.FC = () => {
 
       </div>
     </div>
-
+    <br /><br /><br />
 
     <div className="Final">
         <h3 className="linkedlnT">Linkdln: (personal)</h3><a className="Linkdln" href="https://www.linkedin.com/in/juan-pablo-saavedra-ram%C3%ADrez-77ab15288"><img className="LinI" src="in.png" alt="" /></a>

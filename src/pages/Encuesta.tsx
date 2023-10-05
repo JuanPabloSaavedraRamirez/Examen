@@ -80,7 +80,7 @@ const Encuesta = () => {
 
   return <>
     <div className="encuesta-container">
-      <h1>Encuesta</h1>
+      <h1 className='Encuesta'>Encuesta</h1>
       <ol className="preguntas-lista">
         <li>
           <label>

@@ -71,10 +71,6 @@ body{
     width: 200px;
 }
 
-.TextoProyecto2{
-    
-}
-
 .conocimientos{
     display: grid;
     grid-template-rows: repeat(10,50px);
@@ -331,4 +327,361 @@ body{
 .LinI{
     width: 200px;
     height: 200px;
+}
+
+@media (max-width:640px){
+    .NameP{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    body{
+        background-color: black;
+        color: #00B3FF;
+    }
+    
+    .Portafolio{
+        
+        display: grid;
+        grid-template-rows: repeat(1,100px);
+        grid-template-columns: repeat(2,100px);
+        justify-content: center;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 35%;
+    
+        margin-top: 90px;
+    }
+    
+    .ImgPerfil{
+        border-style: solid;
+        height: 100px;
+        width: 100px;
+        margin-left: -0px;
+    }
+    
+    .Nombre{
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .Proyecto1{
+        
+        display: grid;
+        grid-template-rows: repeat(1,100px);
+        grid-template-columns: repeat(2,100px);
+        justify-content: center;
+        
+        margin-top: 90px;
+    }
+    
+    .ImgProyecto1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height: 75px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    
+    .TextoProyecto1{
+        margin-left: -50px;
+        font-size: 10px;
+    }
+    
+    
+    .Proyecto2{
+        display: grid;
+        grid-template-rows: repeat(1,100px);
+        grid-template-columns: repeat(2,100px);
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    
+    .ImgProyecto2{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .TextoProyecto2{
+        font-size: 10px;
+    }
+    
+    .conocimientos{
+        display: grid;
+        grid-template-rows: repeat(10,10px);
+        grid-template-columns: repeat(20,10px);
+        justify-content: center;
+    }
+    
+    .Texto{
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        font-size: 5px;
+    }
+    
+    .Malo{
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .Decente{
+        text-align: center;
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .Bueno{
+        text-align: center;
+        grid-column-start: 9;
+        grid-column-end: 12;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    .Excelente{
+        text-align: center;
+        grid-column-start: 12;
+        grid-column-end: 15;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 5px;
+    }
+    
+    
+    .C{
+        width: 13px;
+        height: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-left: -1px;
+    }
+    
+    .CName{
+        color: #00B3FF;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 5px;
+    }
+    
+    .CBarr{
+        background-color: rgba(115, 43, 182, 0.699);
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .Python{
+        width: 10px;
+        height: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        margin-left: -0px;
+    }
+    
+    .PName{
+        color:#00B3FF;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        font-size: 5px;
+    }
+    
+    .PBarr{
+        background-color: #3268ddb2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    
+    .Javascrip{
+        width: 15px;
+        height: 7px;
+        margin-left: -3px;
+        margin-top: 2px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .JName{
+        color:#00B3FF;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        font-size: 5px;
+    }
+    
+    .JBarr{
+        background-color: rgba(255, 255, 0, 0.671);
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .Ejemplos{
+        justify-content: center;
+        text-align: center;
+        padding: 100px;
+        font-size: 10px;
+    }
+    
+    .Container{
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        outline-color: black;
+        outline-style: auto;
+        background-color: white;
+        padding: 20px;
+    }
+    
+    .Cuadrito{
+        width: 5px;
+        height: 5px;
+        background-color: greenyellow;
+        margin-top: 50px;
+        animation: CuadroVueltas 1s linear forwards infinite ;
+        animation-delay: 500ms;
+    }
+    
+    @keyframes CuadroVueltas{
+        100%{
+            transform: 
+            translate(100px)
+            rotate(0.25turn);
+        }
+    }
+    
+    .expansion{
+        width: 11px;
+        height: 15px;
+        margin-top: 41px;
+        margin-left: 40px;
+        background-color: tomato;
+        transition: 500ms;
+        transform: scale(0);
+        animation-delay: 500ms;
+    }
+    
+    .Container:hover .expansion{
+        animation-play-state: paused;
+        transition: all linear 1s;
+        transition: cubic-bezier(0.42, 0, 0.76, 1.52) 1s;
+    }
+    
+    .Hoverme{
+        width: 50px;
+        height: 20px;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 10px;
+        padding-top: 10px;
+    /*Las transciciones deben ir en el elemento que se afecta */
+        transition: all linear 1s;
+        background-color: white;
+        outline-style: auto;
+        animation-delay: 1s;
+        border-radius: 5px;
+    }
+    
+    .Hoverme:hover{
+        background-color: rgb(83, 182, 243);
+        outline-style: dotted;
+        outline-color: rgb(83, 182, 243);
+        color: white;
+    }
+    
+    .Final{
+        margin: 0 auto;
+        width: 200px;
+    
+        height: 100px;
+    
+        display: grid;
+        grid-template-rows: repeat(10,10px);
+        grid-template-columns: repeat(13,15px);
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 35%;
+        background-color:#00B3FF;
+        color: #00B3FF;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .Linkdln{
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 2;
+        grid-row-end: 8;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .Githubi{
+        grid-column-start: 8;
+        grid-column-end: 14;
+        grid-row-start: 2;
+        grid-row-end: 8;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .GithubiT{
+        grid-column-start: 8;
+        grid-column-end: 13;
+        text-align: center;
+        font-size: 5px;
+        color: black;
+    }
+    
+    .linkedlnT{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        text-align: center;
+        font-size: 5px;
+        color: black;
+    }
+    
+    .GitI{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .LinI{
+        width: 80px;
+        height: 80px;
+    }
 }

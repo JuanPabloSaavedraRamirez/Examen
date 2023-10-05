@@ -1,4 +1,4 @@
-/* components/Navbar.css */
+
 .Con{
     margin: 0;
     width:50px;
@@ -68,6 +68,82 @@
         background-color: none;
         transform: translatex(-100px);
     }
+
+}
+
+@media (max-width:640px){
+.Con{
+    margin: 0;
+    width:50px;
+    height: 1px;
+    outline-color: black;
+    outline-style: auto;
+    text-align: center;
+    padding: auto;
+}
+
+.navbar {
+    background-color: #00B3FF;
+    padding: 1px;
+    padding-top: 1px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+    position: relative;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #00B3FF;
+    padding: 20px;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    
+    border-color: black;
+    border-style: solid;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: Animacion 0.5s linear forwards;
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
+.dropdown-menu a {
+    color: #0C0665;
+    text-decoration: none;
+}
+.MenuI{
+    height: 20px;
+}
+
+@keyframes Animacion{
+    0%{
+        background-color: none;
+        transform: translatex(-100px);
+    }
+
+}
+
 
 }
 

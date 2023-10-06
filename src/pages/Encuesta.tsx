@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Inferior from '../components/inferior';
 import '../style/Encuesta.css';
 
 const Encuesta = () => {
@@ -80,7 +81,7 @@ const Encuesta = () => {
 
   return <>
     <div className="encuesta-container">
-      <h1 className='Encuesta'>Encuesta</h1>
+      <h1 className='Encuesta'>Encuesta Otaku</h1>
       <ol className="preguntas-lista">
         <li>
           <label>
@@ -284,10 +285,7 @@ const Encuesta = () => {
       )}
     </div>
         <br /><br /><br />
-      <div className="Final">
-        <h3 className="linkedlnT">Linkdln: (personal)</h3><a className="Linkdln" href="https://www.linkedin.com/in/juan-pablo-saavedra-ram%C3%ADrez-77ab15288"><img className="LinI" src="in.png" alt="" /></a>
-        <h3 className="GithubiT">Github: (personal)</h3><a  className="Githubi" href="https://github.com/JuanPabloSaavedraRamirez"><img className="GitI" src="GitHub-Mark.png" alt="" /></a>
-      </div>
+        <Inferior />
   </>;
 };
 

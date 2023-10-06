@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import React from "react";
 import Inferior from '../components/inferior';
 import '../style/Encuesta.css';
 

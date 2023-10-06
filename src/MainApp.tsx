@@ -1,5 +1,6 @@
+import React from "react";
 import "./style/Portafolio.css"
-import Inferior from "./components/inferior.tsx"
+import Inferior from "./components/inferior"
 
 const MainApp = () => {
   return <>

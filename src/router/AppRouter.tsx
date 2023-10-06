@@ -1,3 +1,4 @@
+import React from "react";
 import MainApp from "../MainApp";
 import Calculadora from "../pages/Calculadora";
 import Tienda from "../pages/Tienda";

@@ -1,6 +1,7 @@
 .NameC{
     text-align: center;
     padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Calculadora{
@@ -175,6 +176,7 @@
         text-align: center;
         padding-top: 60px;
         font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
     }
     
     .Calculadora{

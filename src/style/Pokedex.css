@@ -2,6 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .pokemon-list {
@@ -52,6 +53,7 @@
       margin: 0 auto;
       text-align: center;
       font-size: 5px;
+      font-family:'Times New Roman', Times, serif;
     }
     
     .pokemon-list {

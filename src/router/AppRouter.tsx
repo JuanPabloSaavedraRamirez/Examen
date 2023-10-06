@@ -11,6 +11,7 @@ const AppRouter = () => {
   return <>
         <Navbar/>
           <Routes >
+              <Route path="/*" element ={<MainApp/>} id="MainApp"/>
               <Route path="/MainApp" element ={<MainApp/>} id="MainApp"/>
               <Route path="Calculadora" element={<Calculadora/>}/>
               <Route path="Tienda" element={<Tienda/>}/>
